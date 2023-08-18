@@ -1,4 +1,4 @@
-ARG GOVERSION=1.20.5
+ARG GOVERSION=1.20.7
 FROM golang:${GOVERSION} as builder
 ENV GOARCH=${TARGETARCH}
 WORKDIR /go/src/k8s.io/kube-state-metrics/
