@@ -1,6 +1,6 @@
 module k8s.io/kube-state-metrics/v2
 
-go 1.19
+go 1.21
 
 require (
 	github.com/dgryski/go-jump v0.0.0-20211018200510-ba001c3ffce0
